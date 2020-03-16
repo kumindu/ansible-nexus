@@ -24,9 +24,9 @@ private_key_file = Openwitclub.pem
 After config ansible.cfg .Follow below mention command to excute ansible playbook.In "<Public_DNS>" 
 adding your aws ec2 instance public dns value ex:-("ec2-18-232-76-22.compute-1.amazonaws.com") 
 ```
-$ ansible-playbook -i <Public_DNS>, jenkins.yml
+$ ansible-playbook -i <Public_DNS>, nexus.yml
 ```
 Example :-
 ```
-$ ansible-playbook -i ec2-18-232-76-22.compute-1.amazonaws.com, jenkins.yml
+$ ansible-playbook -i ec2-18-232-76-22.compute-1.amazonaws.com, nexus.yml
 ```
